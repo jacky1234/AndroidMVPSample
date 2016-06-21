@@ -92,7 +92,6 @@ public class BaseActivity extends AppCompatActivity {
     }
 
     public Toolbar initToolBar() {
-
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         ActionBar actionBar = getSupportActionBar();

@@ -29,7 +29,6 @@ public class MainActivity extends MvpActivity<MainPresenter> implements MainView
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ButterKnife.bind(this);
         //请求接口
         mvpPresenter.loadData("101010100");
     }
